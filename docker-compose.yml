@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  app:
+    container_name: tfviewer
+    environment:
+      - NODE_ENV=production
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "5000:5000"
+      - "8000:8000"

@@ -1,0 +1,44 @@
+{
+  "name": "uploadwithreact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^4.1.2",
+    "axios": "^0.19.2",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.2",
+    "fs-extra": "^9.0.0",
+    "jszip": "^3.3.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "python-shell": "^1.0.8",
+    "react": "^16.13.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-responsive-carousel": "^3.1.57",
+    "react-scripts": "3.4.1",
+    "react-strap": "0.0.1",
+    "react-toastify": "^5.5.0",
+    "reactstrap": "^8.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon server",
+    "runall": "concurrently \"npm:server\" \"npm:start\" "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
