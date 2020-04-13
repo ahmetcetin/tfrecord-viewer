@@ -25,6 +25,8 @@ After that you can run:
 
 <img src="/public/TRRecord_File_Viewer-1.png" />
 
+![Upload s](https://user-images.githubusercontent.com/5046786/79118614-aed14600-7d8e-11ea-83fd-13157bd58cc5.png)
+
 ![Upload screen](public/TRRecord_File_Viewer-1.png)
 ![Select files screen](public/TRRecord_File_Viewer-2.png)
 ![Summary screen](public/TRRecord_File_Viewer-3.png)
