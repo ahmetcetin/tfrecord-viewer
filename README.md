@@ -21,7 +21,9 @@ pip3 install -r requirements.txt
 
 After that you can run:
 
-`npm run runall`
+```
+npm run runall
+```
 
 
 
@@ -37,4 +39,4 @@ On the gallery view screen, you can navigate with right-arrow, left-arrow keys o
 
 ![Summary screen](https://user-images.githubusercontent.com/5046786/79118780-12f40a00-7d8f-11ea-8c67-d946d2c96722.png)
 
-On the summary page, you can concatenate the list of files by line-break, or comma, then you can copy to clipboard. Or you can download the selected files in a zip.
+On the summary page, you can concatenate the list of files by line-break, or comma, then you can copy to clipboard. Or you can download the selected files in a zip file.
