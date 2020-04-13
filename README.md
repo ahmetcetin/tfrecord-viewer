@@ -25,6 +25,7 @@ After that you can run:
 npm run runall
 ```
 
+***Important note:*** Make sure ports 3000, 5000, and 8000 are not in use before running this project.
 
 
 ![Upload screen](https://user-images.githubusercontent.com/5046786/79118614-aed14600-7d8e-11ea-83fd-13157bd58cc5.png)
