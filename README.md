@@ -23,7 +23,7 @@ After that you can run:
 
 `npm run runall`
 
-<img src="public/TRRecord_File_Viewer-1.png" />
+<img src="/public/TRRecord_File_Viewer-1.png" />
 
 ![Upload screen](public/TRRecord_File_Viewer-1.png)
 ![Select files screen](public/TRRecord_File_Viewer-2.png)
