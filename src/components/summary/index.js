@@ -75,7 +75,10 @@ const Summary = ({ selectedFiles, reset, setInitialSelected }) => {
         <Radio value="comma">Comma seperated</Radio>
       </Radio.Group>
       <div style={{ width: "100%" }}>
-        <CopyToClipboard text={text} onCopy={() => toast.success("Copied!")}>
+        <CopyToClipboard
+          text={text}
+          onCopy={() => toast.success("Copied to clipboard!")}
+        >
           <Button>Copy</Button>
         </CopyToClipboard>
         <Button onClick={download}>Download</Button>
