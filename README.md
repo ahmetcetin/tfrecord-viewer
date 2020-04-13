@@ -12,7 +12,7 @@ You can run this project standalone or using Docker. Using Docker is recommended
 
 `docker-compose up`
 
-Then in your browser, navigate to:
+Then in your browser (tested with Chrome, Microsoft Edge), navigate to:
 
 `http://localhost:3000`
 
