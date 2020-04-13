@@ -24,11 +24,17 @@ After that you can run:
 `npm run runall`
 
 
+
 ![Upload screen](https://user-images.githubusercontent.com/5046786/79118614-aed14600-7d8e-11ea-83fd-13157bd58cc5.png)
+
 On the upload screen, if you select mixed files, only files with tfrecord extension will be uploaded, other file types will be ignored.
 
+
 ![Select Files screen](https://user-images.githubusercontent.com/5046786/79118700-df18e480-7d8e-11ea-978f-76533cbba929.png)
+
 On the gallery view screen, you can navigate with right-arrow, left-arrow keys on the keyboard, and select the shown file with space key.
 
+
 ![Summary screen](https://user-images.githubusercontent.com/5046786/79118780-12f40a00-7d8f-11ea-8c67-d946d2c96722.png)
+
 On the summary page, you can concatenate the list of files by line-break, or comma, then you can copy to clipboard. Or you can download the selected files in a zip.
