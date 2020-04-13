@@ -12,7 +12,7 @@ You can run this project standalone or using Docker. Using Docker is recommended
 
 `docker-compose up`
 
-If you want to run without Docker, make sure you have Tensorflow 1.15 installed. Tensorflow is not listed as dependency in requirements.txt, as base Docker image (tensorflow/tensorflow:1.15.0-py3) has already Tensorflow installed. Then install all other dependencies with:
+If you want to run without Docker, make sure you have Python3 and Tensorflow 1.15 installed. Tensorflow is not listed as dependency in requirements.txt, as base Docker image (tensorflow/tensorflow:1.15.0-py3) has already Tensorflow installed. Then install all other dependencies with:
 
 ```
 npm install
