@@ -31,6 +31,7 @@ const TFViewer = ({ files, initialSelected, setSelectedFiles }) => {
       if (e.keyCode === 39 && shown < count) {
         setShown(shown + 1);
       }
+      scrollTop();
     },
     [shown, selected]
   );
@@ -43,6 +44,13 @@ const TFViewer = ({ files, initialSelected, setSelectedFiles }) => {
       document.removeEventListener("keydown", selectFn, false);
     };
   }, [shown, selected]);
+
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   const selectFile = (file) => {
     if (file) {
