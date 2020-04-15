@@ -6,7 +6,7 @@ Use TFRecord Viewer to browse contents of TFRecord files with object detection/c
 
 This viewer is wrapper around TFRecord Viewer project by Milan Sulc [TFRecord-Viewer](https://github.com/sulc/tfrecord-viewer).
 
-You can upload (upto 1000 TFRecord files), and check them using a carousel view, you can select multiple files, and either get list of selected files or download the selected ones in a zip file.
+You can upload (upto 1000) TFRecord files, and check them using a carousel view, you can select multiple files, and either get list of selected files or download the selected ones in a zip file. Be warned that although app allows you to upload 100o tfrecords file, if your computer's memory won't be enough, it would crash.
 
 You can run this project standalone or using Docker. Using Docker is recommended, make sure to have Docker and docker-compose installed, then run:
 
